@@ -1,0 +1,63 @@
+/* Styles for the Advanced Markup assignment. */
+header h1{
+    text-align: center;
+    font-family: arial;
+}
+body{
+    background: lightgoldenrodyellow;
+}
+p{
+    font-family: cursive;
+}
+.poem{
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    font-family: cursive;
+}
+/*About page style */
+dt{
+    font-weight: 900;    
+}
+.bio-photo {
+    width: 25%;
+    float: Left;
+    background: #cccccc;
+    margin: 10px;
+    padding: 5px;
+}
+.bio-photo img{
+    width: 100%;
+    height: auto;
+}
+/*Sidebar style*/
+#sidebar{
+    float: right;
+    width: 25%;
+    background: lightgrey;
+    margin: 20px;
+    padding: 10px;
+    font-family: cursive;
+    border: 1px solid black;
+}
+sidebar ul li{
+  display: inline;  
+}
+
+/*Navigation Styles*/
+nav ul li{
+    display: inline;
+    border: solid  1px black;
+    padding: 5px;
+}
+.active{
+    font-weight: 900;
+    background: lightgrey;
+    padding: 5px;
+}
+
+/*Table style*/
+table{
+    width: 100%;
+    text-align: left;
+}
